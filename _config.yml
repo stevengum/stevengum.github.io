@@ -1,0 +1,9 @@
+title: Steven Gum
+description: Demo and hosting page for various projects.
+github_username: stevengum
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
