@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/style.css">
-    <title>Steven Gum</title>
-</head>
-
-<body>
-    <main>
-      <h1>Steven Gum</h1>
-      <p>Demo and hosting page for various projects.</p>
-      <p><a href="https://github.com/stevengum">GitHub</a></p>
-    </main>
-</body>
-</html>
+---
+layout: default
+---
+      <h1>{{ site.title }}</h1>
+      <p>{{ site.description }}</p>
+      <p><a href="https://github.com/{{ site.github_username }}">GitHub</a></p>
