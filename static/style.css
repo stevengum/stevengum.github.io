@@ -116,3 +116,12 @@ a {
         margin-bottom: 12px;
     }
 }
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
