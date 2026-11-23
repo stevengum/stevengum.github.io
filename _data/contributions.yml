@@ -27,3 +27,38 @@ repos:
   - name: microsoft/botframework-sdk
     merged_prs: 17
     url: https://github.com/microsoft/botframework-sdk/pulls?q=is%3Apr+is%3Amerged+author%3Astevengum
+
+# Hand-picked pull requests, newest first.
+highlights:
+  - title: Updated authentication for the new CloudAdapter
+    repo: microsoft/botbuilder-js
+    year: 2021
+    url: https://github.com/microsoft/botbuilder-js/pull/3534
+  - title: Single sign-on (SSO) support for skill dialogs
+    repo: microsoft/botbuilder-js
+    year: 2020
+    url: https://github.com/microsoft/botbuilder-js/pull/2127
+  - title: API Extractor to catch breaking public API changes
+    repo: microsoft/botbuilder-js
+    year: 2020
+    url: https://github.com/microsoft/botbuilder-js/pull/1962
+  - title: Skills support in Azure Government cloud
+    repo: microsoft/botbuilder-js
+    year: 2020
+    url: https://github.com/microsoft/botbuilder-js/pull/1835
+  - title: Reliable socket-closure handling for streaming connections
+    repo: microsoft/botbuilder-js
+    year: 2020
+    url: https://github.com/microsoft/botbuilder-js/pull/1627
+  - title: Idempotent bot create command and refactored tests
+    repo: Azure/azure-cli
+    year: 2020
+    url: https://github.com/Azure/azure-cli/pull/11935
+  - title: WebSocket support in the TypeScript echo bot sample
+    repo: microsoft/BotBuilder-Samples
+    year: 2019
+    url: https://github.com/microsoft/BotBuilder-Samples/pull/2065
+  - title: Skill support in BotFrameworkAdapter, with authentication
+    repo: microsoft/botbuilder-js
+    year: 2019
+    url: https://github.com/microsoft/botbuilder-js/pull/1473

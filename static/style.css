@@ -175,3 +175,17 @@ a {
     white-space: nowrap;
     padding-left: 16px;
 }
+
+#open-source h3 {
+    margin: 32px 0 8px;
+    font-size: 1.0625rem;
+}
+
+.highlights {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.highlights li {
+    margin-bottom: 6px;
+}

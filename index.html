@@ -74,6 +74,16 @@ layout: default
             {%- endfor %}
           </tbody>
         </table>
+
+        <h3>Highlights</h3>
+        <ul class="highlights">
+          {%- for pr in oss.highlights %}
+          <li>
+            <a href="{{ pr.url }}">{{ pr.title }}</a>
+            <span class="muted">· {{ pr.repo }}, {{ pr.year }}</span>
+          </li>
+          {%- endfor %}
+        </ul>
       </section>
 
       <section id="contact">
