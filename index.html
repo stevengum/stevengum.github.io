@@ -53,6 +53,29 @@ layout: default
         </div>
       </section>
 
+      {%- assign oss = site.data.contributions %}
+      <section id="open-source">
+        <h2>Open source contributions</h2>
+        <p>
+          <a href="{{ oss.all_url }}"><strong>{{ oss.total_merged_prs }} merged pull requests</strong></a>
+          across {{ oss.total_repos }} repositories I don't own, {{ oss.years }}.
+          <span class="muted">(As of {{ oss.as_of }}.)</span>
+        </p>
+        <table class="oss-table">
+          <thead>
+            <tr><th scope="col">Repository</th><th scope="col">Merged PRs</th></tr>
+          </thead>
+          <tbody>
+            {%- for repo in oss.repos %}
+            <tr>
+              <td><a href="{{ repo.url }}">{{ repo.name }}</a></td>
+              <td>{{ repo.merged_prs }}</td>
+            </tr>
+            {%- endfor %}
+          </tbody>
+        </table>
+      </section>
+
       <section id="contact">
         <h2>Contact</h2>
         <p>The best way to reach me is on LinkedIn.</p>

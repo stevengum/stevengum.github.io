@@ -1,0 +1,29 @@
+# Merged pull requests by stevengum in repositories outside the stevengum account.
+# Counts from the GitHub search API on 2026-11-23
+# (author:stevengum is:pr is:merged -user:stevengum).
+as_of: November 2026
+total_merged_prs: 453
+total_repos: 24
+years: 2016–2024
+all_url: https://github.com/search?q=author%3Astevengum+is%3Apr+is%3Amerged+-user%3Astevengum&type=pullrequests
+
+# Top repositories, ordered by merged pull request count.
+repos:
+  - name: microsoft/botbuilder-js
+    merged_prs: 225
+    url: https://github.com/microsoft/botbuilder-js/pulls?q=is%3Apr+is%3Amerged+author%3Astevengum
+  - name: microsoft/BotBuilder-Samples
+    merged_prs: 72
+    url: https://github.com/microsoft/BotBuilder-Samples/pulls?q=is%3Apr+is%3Amerged+author%3Astevengum
+  - name: microsoft/botbuilder-dotnet
+    merged_prs: 38
+    url: https://github.com/microsoft/botbuilder-dotnet/pulls?q=is%3Apr+is%3Amerged+author%3Astevengum
+  - name: microsoft/botbuilder-python
+    merged_prs: 34
+    url: https://github.com/microsoft/botbuilder-python/pulls?q=is%3Apr+is%3Amerged+author%3Astevengum
+  - name: Azure/azure-cli
+    merged_prs: 18
+    url: https://github.com/Azure/azure-cli/pulls?q=is%3Apr+is%3Amerged+author%3Astevengum
+  - name: microsoft/botframework-sdk
+    merged_prs: 17
+    url: https://github.com/microsoft/botframework-sdk/pulls?q=is%3Apr+is%3Amerged+author%3Astevengum
