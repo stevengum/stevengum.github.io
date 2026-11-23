@@ -62,3 +62,7 @@ highlights:
     repo: microsoft/botbuilder-js
     year: 2019
     url: https://github.com/microsoft/botbuilder-js/pull/1473
+  - title: Fetch an Entra ID token when authenticating streaming WebSocket upgrades
+    repo: microsoft/botbuilder-js
+    year: 2019
+    url: https://github.com/microsoft/botbuilder-js/pull/1338
