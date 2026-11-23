@@ -29,3 +29,13 @@ layout: default
           talks for first-generation students getting into tech.
         </p>
       </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <dl class="skills">
+          {%- for group in site.data.skills %}
+          <dt>{{ group.category }}</dt>
+          <dd>{{ group.items | join: ', ' }}</dd>
+          {%- endfor %}
+        </dl>
+      </section>
