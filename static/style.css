@@ -125,3 +125,32 @@ a {
     padding: 0;
     list-style: none;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+    gap: 16px;
+}
+
+.card {
+    padding: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    overflow-wrap: anywhere;
+}
+
+.card .meta {
+    margin: 0 0 8px;
+    font-size: 0.875rem;
+    color: var(--muted);
+}
+
+.card p:last-child {
+    margin: 0;
+}
