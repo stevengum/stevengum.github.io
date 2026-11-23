@@ -40,6 +40,19 @@ layout: default
         </dl>
       </section>
 
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="cards">
+          {%- for project in site.data.projects %}
+          <article class="card">
+            <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
+            <p class="meta">{{ project.role }} · {{ project.language }}</p>
+            <p>{{ project.summary }}</p>
+          </article>
+          {%- endfor %}
+        </div>
+      </section>
+
       <section id="contact">
         <h2>Contact</h2>
         <p>The best way to reach me is on LinkedIn.</p>
