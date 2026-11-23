@@ -1,6 +1,7 @@
 # Pinned repositories from github.com/stevengum, in pinned order.
 - name: microsoft/botbuilder-js
   url: https://github.com/microsoft/botbuilder-js
+  contributions_url: https://github.com/microsoft/botbuilder-js/pulls?q=is%3Apr+author%3Astevengum
   language: TypeScript
   role: Primary contributor
   summary: >-
@@ -8,12 +9,14 @@
     and developer-facing APIs used by thousands of external developers.
 - name: microsoft/botbuilder-dotnet
   url: https://github.com/microsoft/botbuilder-dotnet
+  contributions_url: https://github.com/microsoft/botbuilder-dotnet/pulls?q=is%3Apr+author%3Astevengum
   language: C#
   role: Contributor
   summary: >-
     Bot Framework SDK for .NET. Contributed to the C# SDK libraries.
 - name: microsoft/BotBuilder-Samples
   url: https://github.com/microsoft/BotBuilder-Samples
+  contributions_url: https://github.com/microsoft/BotBuilder-Samples/pulls?q=is%3Apr+author%3Astevengum
   language: C#, JavaScript, TypeScript, Python
   role: Contributor
   summary: >-
@@ -21,6 +24,7 @@
     Framework SDKs.
 - name: Azure/azure-cli
   url: https://github.com/Azure/azure-cli
+  contributions_url: https://github.com/Azure/azure-cli/pulls?q=is%3Apr+author%3Astevengum
   language: Python
   role: Contributor, botservice module
   summary: >-
@@ -28,6 +32,7 @@
     creating and managing bots on Azure.
 - name: stevengum/DiscordConnector
   url: https://github.com/stevengum/DiscordConnector
+  contributions_url: https://github.com/stevengum/DiscordConnector/pulls?q=is%3Apr+author%3Astevengum
   language: TypeScript
   role: Author (personal project)
   summary: >-
