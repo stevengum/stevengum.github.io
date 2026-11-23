@@ -1,6 +1,50 @@
 ---
 layout: default
 ---
-      <h1>{{ site.title }}</h1>
-      <p>{{ site.description }}</p>
-      <p><a href="https://github.com/{{ site.github_username }}">GitHub</a></p>
+      <header class="intro">
+        <h1>{{ site.title }}</h1>
+        <p class="tagline">{{ site.job_title }} · Backend &amp; Developer Relations</p>
+        <p class="muted">{{ site.location }}</p>
+        <p class="open-to">Open to: {{ site.open_to }}</p>
+      </header>
+
+      <section id="about">
+        <h2>About</h2>
+        <p>
+          I'm a Senior Software Engineer with 9+ years at Microsoft. I started on the
+          open source Bot Framework SDK, building the TypeScript/JavaScript and C# libraries,
+          samples, and docs that thousands of external developers build on. Since then I've
+          worked on conversational AI runtimes, enterprise Microsoft 365 services, and
+          identity and authentication for Azure Bot Service and Copilot Studio.
+        </p>
+        <p>
+          Today I focus on large language model (LLM) agents: Model Context Protocol (MCP)
+          developer tooling, end-to-end evaluation for AI agents, and secure multi-tenant
+          sign-in. I like making developers faster, whether that's an SDK API, a CI pipeline
+          that runs in half the time, or a troubleshooting guide the whole on-call rotation uses.
+        </p>
+        <p>
+          I came into software through a coding bootcamp in 2016, joined Microsoft as a vendor,
+          and grew into a senior engineer. I share that path through Pasifika @ Microsoft and
+          talks for first-generation students getting into tech.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <dl class="skills">
+          {%- for group in site.data.skills %}
+          <dt>{{ group.category }}</dt>
+          <dd>{{ group.items | join: ', ' }}</dd>
+          {%- endfor %}
+        </dl>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>The best way to reach me is on LinkedIn.</p>
+        <ul class="links">
+          <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">LinkedIn</a></li>
+          <li><a href="https://github.com/{{ site.github_username }}">GitHub</a></li>
+        </ul>
+      </section>

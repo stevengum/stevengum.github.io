@@ -1,6 +1,12 @@
 title: Steven Gum
-description: Demo and hosting page for various projects.
+description: >-
+  Senior Software Engineer focused on backend services and developer
+  relations. Seattle-based, relocating to Los Angeles.
+job_title: Senior Software Engineer
+location: Seattle, WA (relocating to Los Angeles)
+open_to: Backend and developer relations roles in Los Angeles or remote
 github_username: stevengum
+linkedin_username: stevengum
 
 exclude:
   - README.md

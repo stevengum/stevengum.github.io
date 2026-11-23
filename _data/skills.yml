@@ -1,0 +1,10 @@
+- category: Languages
+  items: [TypeScript, JavaScript, C#, .NET, Python, Kusto Query Language (KQL)]
+- category: Backend and cloud
+  items: [Azure, Azure Bot Service, REST APIs, Azure DevOps Pipelines, CI/CD, Live-site on-call]
+- category: Identity and security
+  items: [OAuth, Microsoft Entra ID, Multi-tenant authentication, Microsoft Graph, Threat modeling, US Government Cloud compliance]
+- category: AI and agents
+  items: [Model Context Protocol (MCP), AI agent evaluation, Copilot Studio, Bot Framework]
+- category: Developer relations
+  items: [SDK design, Developer experience, Samples and documentation, Public speaking, Community building]
