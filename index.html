@@ -46,7 +46,7 @@ layout: default
           {%- for project in site.data.projects %}
           <article class="card">
             <h3><a href="{{ project.url }}">{{ project.name }}</a></h3>
-            <p class="meta">{{ project.role }} · {{ project.language }}</p>
+            <p class="meta">{% if project.contributions_url %}<a href="{{ project.contributions_url }}">{{ project.role }}</a>{% else %}{{ project.role }}{% endif %} · {{ project.language }}</p>
             <p>{{ project.summary }}</p>
           </article>
           {%- endfor %}
