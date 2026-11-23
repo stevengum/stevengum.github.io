@@ -71,3 +71,22 @@ a {
     font-size: 0.875rem;
     color: var(--muted);
 }
+
+.tagline {
+    margin: 0;
+    font-size: 1.125rem;
+}
+
+.intro .muted {
+    margin: 4px 0 16px;
+}
+
+.open-to {
+    display: inline-block;
+    margin: 0;
+    padding: 4px 12px;
+    font-size: 0.9375rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+}
